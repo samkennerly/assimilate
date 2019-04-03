@@ -3,9 +3,8 @@
 puts '---- Build symbolic links ----'
 
 require_relative '../lib/repo'
-require 'YAML'
 
-PARAMS = YAML.load_file(Repo.path('etc/symlinks.yaml'))
+PARAMS = Repo.params('symlinks')
 SOURCE = Repo.path('srv')
 TARGET = Dir.home
 

@@ -3,9 +3,8 @@
 puts '---- Clone repositories from GitHub ----'
 
 require_relative '../lib/repo'
-require 'YAML'
 
-PARAMS = YAML.load_file(Repo.path('etc/clones.yaml'))
+PARAMS = Repo.params('clones')
 GITURL = URI.parse(PARAMS['giturl'])
 FOLDER = File.expand_path(PARAMS['folder'])
 

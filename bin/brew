@@ -4,9 +4,8 @@ puts '---- Install apps with Homebrew ----'
 
 require_relative '../lib/repo'
 require 'open-uri'
-require 'YAML'
 
-PARAMS = YAML.load_file(Repo.path('etc/brew.yaml'))
+PARAMS = Repo.params('brew')
 SOURCE = URI.parse(PARAMS['source'])
 TARGET = File.expand_path(PARAMS['target'])
 

@@ -1,5 +1,7 @@
 # Repository utilities
 
+require 'YAML'
+
 module Repo
   PATH = File.expand_path('../..',__FILE__)
   NAME = PATH.split('/').pop
@@ -13,6 +15,11 @@ module Repo
   def self.logline(message='')
     now = Time.now.utc.to_s[0..18]
     "#{now} [#{NAME}] #{message}"
+  end
+
+  # Hash: Read parameters from YAML file.
+  def self.params(basename)
+    YAML.load_file(self.path("etc/#{basename}.yaml"))
   end
 
   # String: Absolute path to (optional path inside) repo.
