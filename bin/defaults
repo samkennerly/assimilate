@@ -1,3 +1,11 @@
 #!/usr/bin/env ruby
 
 puts '---- Defaults for macOS ----'
+
+# TODO:
+# - Read macOS docs
+# - How to test safely?
+
+require_relative '../lib/repo'
+
+PARAMS = Repo.params('defaults')

@@ -13,18 +13,8 @@ unless File.file?(TARGET)
   Repo.echo "Install brew from #{SOURCE}"
   system('ruby','-e',open(SOURCE).read)
 end
-
-Repo.echo 'Update Homebrew'
-`brew update`
-
-Repo.echo 'Install Homebrew add-ons'
-PARAMS['taps'].each { |x| `brew tap #{x}` }
-
-Repo.echo 'Install command-line apps'
-PARAMS['formulae'].each { |x| `brew install #{x}` }
-
-Repo.echo 'Install GUI apps'
-PARAMS['casks'].each { |x| `brew cask install #{x}` }
-
-Repo.echo 'Clean Homebrew'
-`brew cleanup`
+Repo.run 'brew update'
+PARAMS['taps'].each { |x| Repo.run "brew tap #{x}" }
+PARAMS['formulae'].each { |x| Repo.run "brew install #{x}" }
+PARAMS['casks'].each { |x| Repo.run "brew cask install #{x}" }
+Repo.run 'brew cleanup'

@@ -27,4 +27,10 @@ module Repo
     File.join(PATH,*args)
   end
 
+  # true,false, or nil: Print log messsage and call system().
+  def self.run(*args,**kwargs)
+    self.echo args.join(' ')
+    system(*args,**kwargs)
+  end
+
 end
