@@ -1,15 +1,18 @@
 {
 	"auto_close_tags": false,
 	"auto_complete": false,
+	"auto_complete_commit_on_tab": false,
 	"auto_complete_selector": false,
 	"auto_complete_size_limit": 0,
 	"auto_complete_triggers": false,
+	"auto_complete_with_fields": false,
 	"auto_indent": false,
 	"auto_match_enabled": false,
 	"caret_style": "wide",
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/Section9.tmTheme",
 	"default_line_ending": "unix",
+	"draw_white_space": "selection",
 	"detect_indentation": "false",
 	"file_exclude_patterns":
 	[
@@ -23,12 +26,13 @@
 		".ipynb_checkpoints"
 	],
 	"font_size": 14.0,
-	"hot_exit":false,
+	"hot_exit": false,
 	"rulers":
 	[
 		80,
 		100
 	],
+	"shift_tab_unindent": false,
 	"show_errors_inline": false,
 	"tab_completion": false,
 	"tab_size": 2,
