@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+echo "Assimilate $HOME"
+
+set -ex
+here="$(dirname "$0")"
+
+$here/brew
+$here/clones
+#$here/defaults
+$here/symlinks

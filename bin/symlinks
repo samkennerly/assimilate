@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+puts '---- Build symbolic links ----'
+
+require_relative '../lib/repo'
+require 'YAML'
+
+PARAMS = YAML.load_file(Repo.path('etc/symlinks.yaml'))
+SOURCE = Repo.path('srv')
+TARGET = Dir.home
+
+PARAMS.each do |k,v|
+  real = File.expand_path(k,SOURCE)
+  fake = File.expand_path(v,TARGET)
+  Repo.log "#{real} <- #{fake}"
+  File.unlink(fake) if File.symlink?(fake)
+  File.symlink(real,fake)
+end

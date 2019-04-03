@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+puts '---- Clone repositories from GitHub ----'
+
+require_relative '../lib/repo'
+require 'YAML'
+
+PARAMS = YAML.load_file(Repo.path('etc/clones.yaml'))
+GITURL = URI.parse(PARAMS['giturl'])
+FOLDER = File.expand_path(PARAMS['folder'])
+
+PARAMS['remote'].each do |k,v|
+  local = File.join(FOLDER,k)
+  remote = URI.join(GITURL,v)
+  Repo.log "#{local} <- #{remote}"
+  `git clone #{remote} #{local}` unless Dir.exist?(local)
+end
