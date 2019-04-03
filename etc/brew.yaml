@@ -30,17 +30,17 @@ formulae:
 
 casks:
   # GUI apps
-  - anaconda      # scientific Python package manager
-  - cheatsheet    # hold Command key to see shortcuts
-  - docker        # build and run containers
+  - anaconda      # Python package manager
+  - cheatsheet    # Hold Command key to see shortcuts
+  - docker        # Build and run containers
   - google-chrome # Chrome web browser
-  - hex-fiend     # open and scan large and/or weird files
-  - macdown       # markdown text editor
-  - mactex        # typeset equations with LaTeX
+  - hex-fiend     # Open and scan large and/or weird files
+  - macdown       # Markdown text editor
+  - mactex        # Typeset equations with LaTeX
   - pgadmin4      # PostgreSQL browser
   - qlstephen     # QuickLook for text-like files
   - quickjson     # QuickLook for JSON files
-  - shiftit       # keyboard shortcuts to move and resize windows
-  - sequel-pro    # SQLite mini-database manager
-  - sublime-text  # text editor for programming
-
+  - shiftit       # Keyboard shortcuts to move and resize windows
+  - sequel-pro    # MySQL browser
+  - sqlitebrowser # SQLite database manager
+  - sublime-text  # Text editor for coding
