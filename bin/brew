@@ -10,21 +10,21 @@ SOURCE = URI.parse(PARAMS['source'])
 TARGET = File.expand_path(PARAMS['target'])
 
 unless File.file?(TARGET)
-  Repo.log "Install brew from #{SOURCE}"
+  Repo.echo "Install brew from #{SOURCE}"
   system('ruby','-e',open(SOURCE).read)
 end
 
-Repo.log 'Update Homebrew'
+Repo.echo 'Update Homebrew'
 `brew update`
 
-Repo.log 'Install Homebrew add-ons'
+Repo.echo 'Install Homebrew add-ons'
 PARAMS['taps'].each { |x| `brew tap #{x}` }
 
-Repo.log 'Install command-line apps'
+Repo.echo 'Install command-line apps'
 PARAMS['formulae'].each { |x| `brew install #{x}` }
 
-Repo.log 'Install GUI apps'
+Repo.echo 'Install GUI apps'
 PARAMS['casks'].each { |x| `brew cask install #{x}` }
 
-Repo.log 'Clean Homebrew'
+Repo.echo 'Clean Homebrew'
 `brew cleanup`

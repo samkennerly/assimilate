@@ -11,6 +11,6 @@ FOLDER = File.expand_path(PARAMS['folder'])
 PARAMS['remote'].each do |k,v|
   local = File.join(FOLDER,k)
   remote = URI.join(GITURL,v)
-  Repo.log "#{local} <- #{remote}"
+  Repo.echo "#{local} <- #{remote}"
   `git clone #{remote} #{local}` unless Dir.exist?(local)
 end

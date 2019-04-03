@@ -7,7 +7,7 @@ module Repo
   NAME = PATH.split('/').pop
 
   # Print log message.
-  def self.log(message='')
+  def self.echo(message='')
     puts self.logline(message)
   end
 

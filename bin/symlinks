@@ -11,7 +11,7 @@ TARGET = Dir.home
 PARAMS.each do |k,v|
   real = File.expand_path(k,SOURCE)
   fake = File.expand_path(v,TARGET)
-  Repo.log "#{real} <- #{fake}"
+  Repo.echo "#{real} <- #{fake}"
   File.unlink(fake) if File.symlink?(fake)
   File.symlink(real,fake)
 end
