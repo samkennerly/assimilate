@@ -21,7 +21,7 @@ alias dockershow="$dockerbash/bin/show"
 # Git
 alias githero='git log --graph --decorate --simplify-by-decoration --all'
 alias gitshow='git fetch --all; git branch --list --all; git status;'
-alias gittree='git ls-tree -r --full-tree --name-only'
+alias gittree='git ls-tree -r --full-tree --name-only HEAD'
 
 # Kingofsnake
 kingofsnake="$HOME/code/net/kingofsnake"
