@@ -1,0 +1,14 @@
+# GitHub repositories
+
+folder:
+  # Clone to this folder
+  "~/code/net"
+
+giturl:
+  # Base URL for GitHub
+  "https://github.com"
+
+remote:
+  # {local:remote} for each repo
+  dockerbash: samkennerly/dockerbash
+  kingofsnake: samkennerly/kingofsnake

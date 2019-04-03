@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+alias la='ls -Gla'
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+export PS1="\[\e[32m\]\u\]\[\e[36m\]@\h\]\n\[\e[31m\]\w/\[\e[m\]"
+
+# Apps
+alias editcsv="open -a 'Easy CSV Editor'"
+alias editjson="open -a 'JSON Editor'"
+alias hex-fiend="open -a 'Hex Fiend'"
+alias macdown="open -a 'MacDown'"
+
+# Dockerbash
+dockerbash="$HOME/code/net/dockerbash"
+alias dockerbake="$dockerbash/bin/bake"
+alias dockerclean="$dockerbash/bin/clean"
+alias dockerdelete="$dockerbash/bin/delete"
+alias dockerrunit="$dockerbash/bin/runit"
+alias dockershow="$dockerbash/bin/show"
+
+# Git
+alias githero='git log --graph --decorate --simplify-by-decoration --all'
+alias gitshow='git fetch --all; git branch --list --all; git status;'
+alias gittree='git ls-tree -r --full-tree --name-only'
+
+# Kingofsnake
+kingofsnake="$HOME/code/net/kingofsnake"
+alias runlab="$kingofsnake/runlab"
+
+# Python
+brewbin='/usr/local/bin'
+condabin='/usr/local/anaconda3/bin'
+alias applepy='/usr/bin/python'
+alias condapy="$condabin/python"
+alias condapip="$condabin/pip"
+alias python2="$brewbin/python2"
+alias python3="$brewbin/python3"
+alias pip2="$brewbin/pip2"
+alias pip3="$brewbin/pip3"
+
+# Q
+export QHOME="$HOME/q"
+alias q="rlwrap -c -r '$QHOME'/m32/q"
+
+# https://github.com/nvbn/thefuck
+eval "$(thefuck --alias)"

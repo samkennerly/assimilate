@@ -1,0 +1,46 @@
+# Install applications
+
+source:
+  # Source code for Homebrew
+  'https://raw.githubusercontent.com/Homebrew/install/master/install'
+
+target:
+  # Path to Homebrew executable
+  '/usr/local/bin/brew'
+
+taps:
+  # Homebrew extensions
+  - caskroom/cask # Homebrew Cask installer
+
+formulae:
+  # Command-line apps
+  - awscli      # Amazon Web Services command-line interface
+  - ffmpeg      # audio/video converter
+  - git         # version control
+  - imagemagick # image converter and GIF maker
+  - jq          # query JSON strings in terminal
+  - python2     # local Python 2 (does not overwrite system Python)
+  - python3     # local Python 3 (does not overwrite system Python)
+  - rlwrap      # command history and editing (for Q/KDB+)
+  - thefuck     # suggestions for mistyped commands
+  - tldr        # short summary of 'man' command
+  - trash       # use macOS Trash from terminal
+  - tree        # show graph of folder and subfolder contents
+  - wget        # get files from web servers
+
+casks:
+  # GUI apps
+  - anaconda      # scientific Python package manager
+  - cheatsheet    # hold Command key to see shortcuts
+  - docker        # build and run containers
+  - google-chrome # Chrome web browser
+  - hex-fiend     # open and scan large and/or weird files
+  - macdown       # markdown text editor
+  - mactex        # typeset equations with LaTeX
+  - pgadmin4      # PostgreSQL browser
+  - qlstephen     # QuickLook for text-like files
+  - quickjson     # QuickLook for JSON files
+  - shiftit       # keyboard shortcuts to move and resize windows
+  - sequel-pro    # SQLite mini-database manager
+  - sublime-text  # text editor for programming
+
