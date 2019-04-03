@@ -6,16 +6,16 @@
 Thumbs.db
 
 # IPython
-/ipython/*
-!/ipython/profile_default/
-/ipython/profile_default/*
-!/ipython/profile_default/ipython_kernel_config.py
+/srv/ipython/*
+!/srv/ipython/profile_default
+/srv/ipython/profile_default/*
+!/srv/ipython/profile_default/ipython_kernel_config.py
 
 # Jupyter
-/jupyter/*
-!/jupyter/nbconfig
-/jupyter/nbconfig/*
-!/jupyter/nbconfig/notebook.json
+/srv/jupyter/*
+!/srv/jupyter/nbconfig
+/srv/jupyter/nbconfig/*
+!/srv/jupyter/nbconfig/notebook.json
 
 # Ruby
 *.gem
