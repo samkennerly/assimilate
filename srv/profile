@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 alias la='ls -Gla'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 export PS1="\[\e[32m\]\u\]\[\e[36m\]@\h\]\n\[\e[31m\]\w/\[\e[m\]"
