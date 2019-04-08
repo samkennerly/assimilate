@@ -1,73 +1,91 @@
 # macOS default settings
 
+# globalDomain
 NSGlobalDomain:
 
-  # Mouse
-  com.apple.mouse.doubleClickThreshold: "-float 0.5"
-  com.apple.mouse.scaling:              "-int 2"
-  com.apple.springing.delay:            "-float 0.5"
-  com.apple.springing.enabled:          "-bool true"
+  AppleShowAllExtensions: -bool true
 
-  # Trackpad
-  com.apple.swipescrolldirection: "-bool false"
-  com.apple.trackpad.forceClick:  "-bool false"
-  com.apple.trackpad.scaling:     "-float 3"
+  ## Autocarrot
+  NSAutomaticCapitalizationEnabled:      -bool false
+  NSAutomaticDashSubstitutionEnabled:    -bool false
+  NSAutomaticPeriodSubstitutionEnabled:  -bool false
+  NSAutomaticQuoteSubstitutionEnabled:   -bool false
+  NSAutomaticSpellingCorrectionEnabled:  -bool false
+  NSAutomaticTextCompletionEnabled:      -bool false
+  WebAutomaticSpellingCorrectionEnabled: -bool false
 
-  # Keyboard
-  InitialKeyRepeat: "-float 15"
-  KeyRepeat:        "-int 1"
+  ## General
+  AppleEnableSwipeNavigateWithScrolls: -bool false
+  AppleHighlightColor: -string "1.000000 0.733333 0.721569"
+  AppleInterfaceStyle: -string "Dark"
 
-  # Autocarrot
-  NSAutomaticSpellingCorrectionEnabled:  "-bool false"
-  NSAutomaticCapitalizationEnabled:      "-bool false"
-  NSAutomaticDashSubstitutionEnabled:    "-bool false"
-  NSAutomaticPeriodSubstitutionEnabled:  "-bool false"
-  NSAutomaticQuoteSubstitutionEnabled:   "-bool false"
-  NSAutomaticSpellingCorrectionEnabled:  "-bool false"
-  NSAutomaticTextCompletionEnabled:      "-bool false"
-  WebAutomaticSpellingCorrectionEnabled: "-bool false"
+  ## Keyboard
+  InitialKeyRepeat: -float 15
+  KeyRepeat:        -int 1
+
+  ## Language & Region
+  AppleICUDateFormatStrings:
+    -dict { 1 = "y-MM-dd"; 2 = "y-MM-dd"; 3 = "y-MM-dd"; 4 = "EEEE, ddMMMMy" }
+  AppleICUForce24HourTime:  -bool true
+  AppleMeasurementUnits:    -string "Centimeters"
+  AppleMetricUnits:         -bool true
+
+  ## Mouse
+  com.apple.mouse.doubleClickThreshold: -float 0.5
+  com.apple.mouse.scaling:              -int 2
+  com.apple.springing.delay:            -float 0.5
+  com.apple.springing.enabled:          -bool true
+
+  ## Trackpad
+  com.apple.swipescrolldirection: -bool false
+  com.apple.trackpad.forceClick:  -bool false
+  com.apple.trackpad.scaling:     -float 3
 
 # Finder
 com.apple.Finder:
-  AppleShowAllFiles: "-bool true"
+  AppleShowAllFiles:                -bool true
+  ShowExternalHardDrivesOnDesktop:  -bool true
+  ShowHardDrivesOnDesktop:          -bool true
+  ShowRecentTags:                   -bool false
+  ShowRemovableMediaOnDesktop:      -bool true
 
 # Multitouch
 com.apple.AppleMultitouchTrackpad:
-  ActuateDetents:                              "-bool false"
-  Clicking:                                    "-bool true"
-  DragLock:                                    "-bool false"
-  Dragging:                                    "-bool false"
-  FirstClickThreshold:                         "-int 2"
-  ForceSuppressed:                             "-bool true"
-  SecondClickThreshold:                        "-int 2"
-  TrackpadCornerSecondaryClick:                "-bool false"
-  TrackpadFiveFingerPinchGesture:              "-int 2"
-  TrackpadFourFingerHorizSwipeGesture:         "-int 2"
-  TrackpadFourFingerPinchGesture:              "-int 2"
-  TrackpadFourFingerVertSwipeGesture:          "-int 2"
-  TrackpadHandResting:                         "-bool true"
-  TrackpadHorizScroll:                         "-bool true"
-  TrackpadMomentumScroll:                      "-bool true"
-  TrackpadPinch:                               "-bool true"
-  TrackpadRightClick:                          "-bool true"
-  TrackpadRotate:                              "-bool true"
-  TrackpadScroll:                              "-bool true"
-  TrackpadThreeFingerDrag:                     "-bool false"
-  TrackpadThreeFingerHorizSwipeGesture:        "-int 2"
-  TrackpadThreeFingerTapGesture:               "-bool false"
-  TrackpadThreeFingerVertSwipeGesture:         "-int 2"
-  TrackpadTwoFingerDoubleTapGesture:           "-bool true"
-  TrackpadTwoFingerFromRightEdgeSwipeGesture:  "-bool false"
-  USBMouseStopsTrackpad:                       "-bool false"
+  ActuateDetents:                              -bool false
+  Clicking:                                    -bool true
+  DragLock:                                    -bool false
+  Dragging:                                    -bool false
+  FirstClickThreshold:                         -int 2
+  ForceSuppressed:                             -bool true
+  SecondClickThreshold:                        -int 2
+  TrackpadCornerSecondaryClick:                -bool false
+  TrackpadFiveFingerPinchGesture:              -int 2
+  TrackpadFourFingerHorizSwipeGesture:         -int 2
+  TrackpadFourFingerPinchGesture:              -int 2
+  TrackpadFourFingerVertSwipeGesture:          -int 2
+  TrackpadHandResting:                         -bool true
+  TrackpadHorizScroll:                         -bool true
+  TrackpadMomentumScroll:                      -bool true
+  TrackpadPinch:                               -bool true
+  TrackpadRightClick:                          -bool true
+  TrackpadRotate:                              -bool true
+  TrackpadScroll:                              -bool true
+  TrackpadThreeFingerDrag:                     -bool false
+  TrackpadThreeFingerHorizSwipeGesture:        -int 2
+  TrackpadThreeFingerTapGesture:               -bool false
+  TrackpadThreeFingerVertSwipeGesture:         -int 2
+  TrackpadTwoFingerDoubleTapGesture:           -bool true
+  TrackpadTwoFingerFromRightEdgeSwipeGesture:  -bool false
+  USBMouseStopsTrackpad:                       -bool false
 
 # Print
 com.apple.print.PrintingPrefs:
-  QuitWhenFinished: "-bool true"
+  QuitWhenFinished: -bool true
 
 # TextEdit
 com.apple.TextEdit:
-  CheckSpellingWhileTyping:  "-bool false"
-  NSFixedPitchFont:          "-string Menlo-Regular"
-  NSFixedPitchFontSize:      "-int 14"
-  NSFont:                    "-string Helvetica"
-  NSFontSize:                "-int 14"
+  CheckSpellingWhileTyping:  -bool false
+  NSFixedPitchFont:          -string "Menlo-Regular"
+  NSFixedPitchFontSize:      -int 14
+  NSFont:                    -string "Helvetica"
+  NSFontSize:                -int 14

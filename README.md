@@ -47,23 +47,23 @@ bin/all
 
 ## TO DO
 
+### Sublime Text
+- Replace `q.tmLanguage` -> `q.sublime-syntax`?
+- Replace `Terraform.tmLanguage` -> `Terraform.sublime-syntax`?
+- Get `Makefile.sublime-syntax`?
+
 ### Terminal
-- use Section9 theme
+- Import theme from [srv/Section9.terminal](srv/Section9.terminal)
 
 ### MacDown
-- tabs to spaces
+- Preferences: convert all tabs to spaces
 
 ### Defaults
-- see [etc/defaults.yaml](etc/defaults.yaml)
-- skip if default does not exist?
-- Finder: dark menu bar and Dock
-- Finder: highlight color red
-- Mission Control: 4 spaces
-- Language and Region: 24-hour time
-- Language and Region/Advanced/General/Measurement: metric units
-- Language and Region/Dates: YYYY-MM-DD
+- `defaults write` tests. What if domain and/or key does not exist?
+- **Spotlight: Limit search folders.**
 - Security and Privacy: require password after sleep OR screensaver
 - Keyboard/Text: no period with double-space
 - Keyboard/Text: no touch bar typing suggestions
 - Keyboard/Text: no smart quotes or dashes
 - Keyboard/Touch Bar: Expanded Control Strip
+- Spaces: 4 spaces
