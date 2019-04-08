@@ -2,10 +2,22 @@
 
 puts '---- Defaults for macOS ----'
 
-# TODO:
-# - Read macOS docs
-# - How to test safely?
-
 require_relative '../lib/repo'
 
+DOMAINS = `defaults domains`.split(',').map(&:strip).sort
 PARAMS = Repo.params('defaults')
+
+def app_defaults(app)
+  system "defaults read -app #{app}"
+end
+
+def domain_defaults(domain)
+  system "defaults read #{domain}"
+end
+
+def global_defaults
+  system "defaults read -globalDomain"
+end
+
+puts DOMAINS
+
