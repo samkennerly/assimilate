@@ -2,7 +2,7 @@
 
 folder:
   # Clone to this folder
-  "~/code/net"
+  "~/code"
 
 giturl:
   # Base URL for GitHub
