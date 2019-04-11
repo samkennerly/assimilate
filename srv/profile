@@ -13,6 +13,7 @@ dockerbash="$HOME/code/net/dockerbash"
 alias dockerbake="$dockerbash/bin/bake"
 alias dockerclean="$dockerbash/bin/clean"
 alias dockerdelete="$dockerbash/bin/delete"
+alias dockerkill="$dockerbash/bin/kill"
 alias dockerrunit="$dockerbash/bin/runit"
 alias dockershow="$dockerbash/bin/show"
 
