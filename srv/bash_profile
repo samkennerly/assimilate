@@ -32,7 +32,7 @@ alias editjson="open -a 'JSON Editor'"
 alias hex-fiend="open -a 'Hex Fiend'"
 alias macdown="open -a 'MacDown'"
 
-# Pythons
+# Python
 alias applepy='/usr/bin/python'
 alias condapy='/usr/local/anaconda3/bin/python'
 alias condapip='/usr/local/anaconda3/bin/pip'
@@ -44,6 +44,9 @@ alias pip3='/usr/local/bin/pip3'
 # Q
 export QHOME="$HOME/q"
 alias q="rlwrap -c -r '$QHOME'/m32/q"
+
+# Ruby
+eval "$(rbenv init -)"
 
 # https://github.com/nvbn/thefuck
 eval "$(thefuck --alias)"
