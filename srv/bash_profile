@@ -1,16 +1,14 @@
 #!/usr/bin/env bash
 
+# AWS
+alias lsbucket='aws s3 ls s3://samkennerly/'
+
+# Bash
 alias la='ls -Gla'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 export PS1="\[\e[32m\]\u\]\[\e[36m\]@\h\]\n\[\e[31m\]\w/\[\e[m\]"
 
-# Apps
-alias editcsv="open -a 'Easy CSV Editor'"
-alias editjson="open -a 'JSON Editor'"
-alias hex-fiend="open -a 'Hex Fiend'"
-alias macdown="open -a 'MacDown'"
-
-# Dockerbash
+# Docker
 dockerbash="$HOME/code/dockerbash"
 alias dockerbake="$dockerbash/bin/bake"
 alias dockerclean="$dockerbash/bin/clean"
@@ -28,7 +26,13 @@ alias gittree='git ls-tree -r --full-tree --name-only HEAD'
 kos="$HOME/code/kingofsnake"
 alias runlab="$kos/bin/runlab"
 
-# Python
+# Openers
+alias editcsv="open -a 'Easy CSV Editor'"
+alias editjson="open -a 'JSON Editor'"
+alias hex-fiend="open -a 'Hex Fiend'"
+alias macdown="open -a 'MacDown'"
+
+# Pythons
 alias applepy='/usr/bin/python'
 alias condapy='/usr/local/anaconda3/bin/python'
 alias condapip='/usr/local/anaconda3/bin/pip'

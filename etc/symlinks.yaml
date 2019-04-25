@@ -1,21 +1,21 @@
-# Symbolic links
+# real:fake
+
+bash_profile:
+  # Login profile
+  "~/.bash_profile"
 
 cheatsheets:
   # Quick-reference guides
   "~/cheatsheets"
 
 ipython:
-  # IPython configuration folder
+  # IPython config folder
   "~/.ipython"
 
 jupyter:
-  # Jupyter configuration folder
+  # Jupyter config folder
   "~/.jupyter"
 
-profile:
-  # Login profile file
-  "~/.profile"
-
 sublime:
-  # Sublime Text preferences folder
+  # Sublime Text packages and preferences
   "~/Library/Application Support/Sublime Text 3/Packages/User"
