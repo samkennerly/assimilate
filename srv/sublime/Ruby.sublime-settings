@@ -1,0 +1,4 @@
+{
+  "extensions": ["Gemfile","Gemfile.lock","Rakefile"],
+  "tab_size": 2
+}
