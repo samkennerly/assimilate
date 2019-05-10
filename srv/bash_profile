@@ -45,8 +45,5 @@ alias pip3='/usr/local/bin/pip3'
 export QHOME="$HOME/q"
 alias q="rlwrap -c -r '$QHOME'/m32/q"
 
-# Ruby
-eval "$(rbenv init -)"
-
 # https://github.com/nvbn/thefuck
 eval "$(thefuck --alias)"
