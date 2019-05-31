@@ -6,7 +6,7 @@
 	"auto_complete_size_limit": 0,
 	"auto_complete_triggers": false,
 	"auto_complete_with_fields": false,
-	"auto_indent": false,
+	"auto_indent": true,
 	"auto_match_enabled": false,
 	"caret_style": "wide",
 	"close_windows_when_empty": true,
