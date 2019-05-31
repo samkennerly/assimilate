@@ -24,6 +24,7 @@ formulae:
   - rbenv       # Ruby version installer and manager
   - rlwrap      # command history and editing (for Q/KDB+)
   - thefuck     # suggestions for mistyped commands
+  - tidy-html5  # HTML5 web page cleaner
   - tldr        # short summary of 'man' command
   - trash       # use macOS Trash from terminal
   - tree        # show graph of folder and subfolder contents
