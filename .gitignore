@@ -1,3 +1,12 @@
+/srv/ipython/*
+!/srv/ipython/profile_default
+/srv/ipython/profile_default/*
+!/srv/ipython/profile_default/ipython_kernel_config.py
+/srv/jupyter/*
+!/srv/jupyter/nbconfig
+/srv/jupyter/nbconfig/*
+!/srv/jupyter/nbconfig/notebook.json
+
 # Apple
 .DS_Store*
 .Spotlight-*
@@ -5,30 +14,21 @@
 .fseventsd
 Thumbs.db
 
-# IPython
-/srv/ipython/*
-!/srv/ipython/profile_default
-/srv/ipython/profile_default/*
-!/srv/ipython/profile_default/ipython_kernel_config.py
-
-# Jupyter
-/srv/jupyter/*
-!/srv/jupyter/nbconfig
-/srv/jupyter/nbconfig/*
-!/srv/jupyter/nbconfig/notebook.json
+# Python
+*.py[cod]
+*.egg
+*.egg-info
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv
+jupyter_notebook_config.*
 
 # Ruby
 *.gem
 *.rbc
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/spec/examples.txt
-/test/tmp/
-/test/version_tmp/
-/tmp/
+.bundle/
+vendor/bundle
 
 # Secrets
 .env
