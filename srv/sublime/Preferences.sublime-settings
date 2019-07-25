@@ -12,8 +12,8 @@
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/Section9.tmTheme",
 	"default_line_ending": "unix",
-	"draw_white_space": "selection",
 	"detect_indentation": "false",
+	"draw_white_space": "selection",
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -27,6 +27,9 @@
 	],
 	"font_size": 14.0,
 	"hot_exit": false,
+	"indent_subsequent_lines": true,
+	"margin": 0,
+	"open_files_in_new_window": false,
 	"rulers":
 	[
 		80,
