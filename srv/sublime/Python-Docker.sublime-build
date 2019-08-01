@@ -1,6 +1,0 @@
-{
-  "shell_cmd": "docker run --rm -v $folder:$folder python:latest python $file",
-  "selector": "source.python",
-  "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
-  "file_patterns": ["*.py"]
-}
