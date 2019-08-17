@@ -77,7 +77,7 @@
 	"match_brackets": true,
 	"move_to_limit_on_up_down": false,
 	"open_files_in_new_window": false,
-	"preview_on_click": false,
+	"preview_on_click": true,
 	"remember_full_screen": false,
 	"remember_open_files": false,
 	"rulers":
@@ -86,7 +86,7 @@
 		100,
 	],
 	"save_on_focus_lost": false,
-	"scroll_past_end": true,
+	"scroll_past_end": false,
 	"shift_tab_unindent": true,
 	"show_definitions": true,
 	"show_errors_inline": false,
