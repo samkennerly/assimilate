@@ -32,13 +32,13 @@ formulae:
 
 casks:
   # GUI apps
-  - anaconda      # Python package manager
+  - anaconda      # Scientific Python package manager
   - cheatsheet    # Hold Command key to see shortcuts
   - docker        # Build and run containers
   - google-chrome # Chrome web browser
   - hex-fiend     # Open and scan large and/or weird files
-  - macdown       # Markdown text editor
   - mactex        # Typeset equations with LaTeX
+  - marked        # Markdown previewer
   - pgadmin4      # PostgreSQL browser
   - qlstephen     # QuickLook for text-like files
   - quickjson     # QuickLook for JSON files
