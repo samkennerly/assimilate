@@ -35,6 +35,7 @@ casks:
   - anaconda      # Scientific Python package manager
   - cheatsheet    # Hold Command key to see shortcuts
   - docker        # Build and run containers
+  - fork          # GitHub client
   - google-chrome # Chrome web browser
   - hex-fiend     # Open and scan large and/or weird files
   - mactex        # Typeset equations with LaTeX
