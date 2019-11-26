@@ -13,27 +13,23 @@ export PS1="\[\e[32m\]\u\]\[\e[36m\]@\h\]\n\[\e[31m\]\w/\[\e[m\]"
 
 # Docker
 dockerbash="$HOME/code/dockerbash"
-alias dockerbake="$dockerbash/bin/bake"
-alias dockerclean="$dockerbash/bin/clean"
-alias dockerdelete="$dockerbash/bin/delete"
-alias dockerkill="$dockerbash/bin/kill"
-alias dockerrunit="$dockerbash/bin/runit"
-alias dockershow="$dockerbash/bin/show"
+alias drbake="$dockerbash/bin/bake"
+alias drclean="$dockerbash/bin/clean"
+alias drdelete="$dockerbash/bin/delete"
+alias drkill="$dockerbash/bin/kill"
+alias drrunit="$dockerbash/bin/runit"
+alias drshow="$dockerbash/bin/show"
 
 # Git
 alias githero='git log --graph --decorate --simplify-by-decoration --all'
 alias gitshow='git fetch --all; git branch --list --all; git status;'
 alias gittree='git ls-tree -r --full-tree --name-only HEAD'
 
-# Kingofsnake
-kos="$HOME/code/kingofsnake"
-alias runlab="$kos/bin/runlab"
-
 # Openers
-alias editcsv="open -a 'Easy CSV Editor'"
-alias editjson="open -a 'JSON Editor'"
-alias hex-fiend="open -a 'Hex Fiend'"
-alias macdown="open -a 'MacDown'"
+alias readcsv="open -a 'Easy CSV Editor'"
+alias readhex="open -a 'Hex Fiend'"
+alias readjson="open -a 'JSON Editor'"
+alias readmd="open -a 'Marked 2'"
 
 # Python
 alias applepy='/usr/bin/python'
