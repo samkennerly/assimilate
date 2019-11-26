@@ -1,5 +1,4 @@
 ASAP:
-  - README cleanup
   - secrets in history? jupyter, bash_profile, etc
   - finish bin/defaults
 
