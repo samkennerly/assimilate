@@ -1,5 +1,7 @@
 ASAP:
-  - secrets in history? jupyter, bash_profile, etc
+  - double-check for secrets: jupyter, bash_profile, ...
+  - create new repo with same name
+  - modify bin/clones to use SSH?
   - finish bin/defaults
 
 DEFAULTS:
