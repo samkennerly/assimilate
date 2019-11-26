@@ -16,7 +16,7 @@ Force a new Mac to conform to my preferences.
 | ----   | ---- |
 | run all scripts | `bin/all` |
 | install apps from `etc/brew.yaml` | `bin/brew` |
-| clone repos from `etc/clones.yaml` | `bin/brew` |
+| clone repos from `etc/clones.yaml` | `bin/clones` |
 | set macOS defaults from `etc/defaults.yaml` | `bin/defaults` |
 | build symlinks from `etc/symlinks.yaml` | `bin/symlinks` |
 
