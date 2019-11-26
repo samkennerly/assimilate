@@ -1,4 +1,4 @@
-# Repository utilities
+# Convenience methods
 
 require 'YAML'
 
