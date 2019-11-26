@@ -1,7 +1,5 @@
 ASAP:
-  - double-check for secrets: jupyter, bash_profile, ...
-  - create new repo with same name
-  - modify bin/clones to use SSH?
+  - modify bin/clones to use SSH ?
   - finish bin/defaults
 
 DEFAULTS:
