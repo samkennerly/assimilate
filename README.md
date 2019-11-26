@@ -2,7 +2,6 @@
 
 Force a new Mac to comply with my preferences.
 
-
 ## quickstart
 
 1. Open a Terminal.
@@ -16,7 +15,6 @@ bin/all
 ## requirements
 
 - [Ruby](https://www.ruby-lang.org) (pre-installed on Mac machines)
-
 
 ## contents
 
@@ -43,27 +41,3 @@ bin/all
 - [sublime](srv/sublime) User Packages for [Sublime Text 3](https://www.sublimetext.com/)
 - [profile](srv/profile) `.profile` bash [startup file](http://www.gnu.org/software/bash/manual/bashref.html#Bash-Startup-Files)
 - [Section9.terminal](srv/Section9.terminal) theme for macOS [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS))
-
-
-## TO DO
-
-### Sublime Text
-- Replace `q.tmLanguage` -> `q.sublime-syntax`?
-- Replace `Terraform.tmLanguage` -> `Terraform.sublime-syntax`?
-- Get `Makefile.sublime-syntax`?
-
-### Terminal
-- Import theme from [srv/Section9.terminal](srv/Section9.terminal)
-
-### MacDown
-- Preferences: convert all tabs to spaces
-
-### Defaults
-- `defaults write` tests. What if domain and/or key does not exist?
-- **Spotlight: Limit search folders.**
-- Security and Privacy: require password after sleep OR screensaver
-- Keyboard/Text: no period with double-space
-- Keyboard/Text: no touch bar typing suggestions
-- Keyboard/Text: no smart quotes or dashes
-- Keyboard/Touch Bar: Expanded Control Strip
-- Spaces: 4 spaces
