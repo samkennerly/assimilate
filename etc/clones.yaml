@@ -10,5 +10,7 @@ giturl:
 
 remote:
   # {local:remote} for each repo
+  blackbox: samkennerly/blackbox
   dockerbash: samkennerly/dockerbash
-  kingofsnake: samkennerly/kingofsnake
+  pydiner: samkennerly/pydiner
+  quarto: samkennerly/quarto
