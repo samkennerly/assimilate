@@ -1,21 +1,12 @@
 # real:fake
 
 bash_profile:
-  # Login profile
   "~/.bash_profile"
-
 cheatsheets:
-  # Quick-reference guides
   "~/cheatsheets"
-
 ipython:
-  # IPython config folder
   "~/.ipython"
-
 jupyter:
-  # Jupyter config folder
   "~/.jupyter"
-
 sublime:
-  # Sublime Text packages and preferences
   "~/Library/Application Support/Sublime Text 3/Packages/User"
