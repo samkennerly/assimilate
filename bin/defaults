@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
-puts '---- Defaults for macOS ----'
+puts '---- Set macOS defaults ----'
+puts '---- UNDER CONSTRUCTION ----'
 
 require_relative '../lib/repo'
 
