@@ -1,12 +1,3 @@
-/srv/ipython/*
-!/srv/ipython/profile_default
-/srv/ipython/profile_default/*
-!/srv/ipython/profile_default/ipython_kernel_config.py
-/srv/jupyter/*
-!/srv/jupyter/nbconfig
-/srv/jupyter/nbconfig/*
-!/srv/jupyter/nbconfig/notebook.json
-
 # Apple
 .DS_Store*
 .Spotlight-*
@@ -32,3 +23,11 @@ vendor/bundle
 
 # Secrets
 .env
+/srv/ipython/*
+!/srv/ipython/profile_default
+/srv/ipython/profile_default/*
+!/srv/ipython/profile_default/ipython_kernel_config.py
+/srv/jupyter/*
+!/srv/jupyter/nbconfig
+/srv/jupyter/nbconfig/*
+!/srv/jupyter/nbconfig/notebook.json
