@@ -11,6 +11,9 @@ alias la='ls -Gla'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 export PS1="\[\e[32m\]\u\]\[\e[36m\]@\h\]\n\[\e[31m\]\w/\[\e[m\]"
 
+# Black
+alias blackbox="$HOME/code/blackbox/blackbox"
+
 # Docker
 dockerbash="$HOME/code/dockerbash"
 alias drbake="$dockerbash/bin/bake"
