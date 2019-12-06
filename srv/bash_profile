@@ -45,7 +45,7 @@ alias pip3='/usr/local/bin/pip3'
 
 # Q
 export QHOME="$HOME/q"
-alias q="rlwrap -c -r '$QHOME'/m32/q"
+alias q='rlwrap --complete-filenames --remember "$QHOME"/m32/q'
 
 # https://github.com/nvbn/thefuck
 eval "$(thefuck --alias)"
