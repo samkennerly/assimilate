@@ -54,7 +54,7 @@ Files and folders intended to be re-used on multiple machines.
 
 - [Ruby 2.3.7]+ is pre-installed on Mac machines.
 
-[Ruby]: https://www.ruby-lang.org
+[Ruby 2.3.7+]: https://www.ruby-lang.org
 
 ## examples
 
