@@ -14,9 +14,12 @@ Force a new Mac to conform to my preferences.
 
 ## basics
 
+1. [Clone] this repo or [use it as a template].
 1. Open a [Terminal] and `cd` to this folder.
 1. Run `bin/all` to assimilate a Mac.
 
+[Clone]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+[use it as a template]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
 [Terminal]: https://en.wikipedia.org/wiki/Terminal_%28macOS%29
 
 ## contents
