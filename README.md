@@ -52,7 +52,7 @@ Files and folders intended to be re-used on multiple machines.
 
 ## dependencies
 
-- [Ruby 2.3.7]+ is pre-installed on Mac machines.
+- [Ruby 2.3.7+] is pre-installed on Mac machines.
 
 [Ruby 2.3.7+]: https://www.ruby-lang.org
 
