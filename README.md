@@ -84,7 +84,7 @@ bin/symlinks
 ```
 
 [Homebrew]: https://brew.sh/
-[repos]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories
+[GitHub repos]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories
 [macOS defaults]: https://en.wikipedia.org/wiki/Defaults_(software)
 [symlinks]: https://en.wikipedia.org/wiki/Symbolic_link
 
