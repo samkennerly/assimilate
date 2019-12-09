@@ -1,6 +1,6 @@
 # assimilate
 
-Force a new Mac to conform to my preferences.
+Your Mac as it has been is over.
 
 ![Locutus of Borg](assimilate.jpeg)
 
