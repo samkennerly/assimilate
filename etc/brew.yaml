@@ -34,6 +34,7 @@ casks:
   # GUI apps
   - anaconda      # Scientific Python package manager
   - cheatsheet    # Hold Command key to see shortcuts
+  - cyberduck     # Client for FTP, SFTP, Google, S3, Dropbox, ...
   - docker        # Build and run containers
   - fork          # GitHub client
   - google-chrome # Chrome web browser
