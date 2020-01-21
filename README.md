@@ -2,7 +2,10 @@
 
 Your Mac as it has been is over.
 
-![Locutus of Borg](assimilate.jpeg)
+<img
+  alt="Locutus of Borg."
+  src="https://raw.githubusercontent.com/samkennerly/posters/master/assimilate.jpeg"
+  title="Resistance is futile.">
 
 ## abstract
 
