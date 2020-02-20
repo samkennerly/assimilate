@@ -14,7 +14,3 @@ remote:
     samkennerly/blackbox
   dockerbash:
     samkennerly/dockerbash
-  pydiner:
-    samkennerly/pydiner
-  quarto:
-    samkennerly/quarto
