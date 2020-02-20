@@ -39,10 +39,6 @@ alias readmd="open -a 'Marked 2'"
 alias applepy='/usr/bin/python'
 alias condapy='/usr/local/anaconda3/bin/python'
 alias condapip='/usr/local/anaconda3/bin/pip'
-alias python2='/usr/local/bin/python2'
-alias python3='/usr/local/bin/python3'
-alias pip2='/usr/local/bin/pip2'
-alias pip3='/usr/local/bin/pip3'
 
 # Q
 export QHOME="$HOME/q"
