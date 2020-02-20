@@ -1,4 +1,8 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
+
+alias la='ls -Gla'
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+export PS1="\[\e[32m\]\u\]\[\e[36m\]@\h\]\n\[\e[31m\]\w/\[\e[m\]"
 
 # Apple
 alias dsclean='find . -name .DS_Store -type f -print -delete'
@@ -6,14 +10,6 @@ alias xclean='xattr -c'
 
 # AWS
 alias lsbucket='aws s3 ls'
-
-# Bash
-alias la='ls -Gla'
-alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
-export PS1="\[\e[32m\]\u\]\[\e[36m\]@\h\]\n\[\e[31m\]\w/\[\e[m\]"
-
-# Black
-alias blackbox="$HOME/code/blackbox/blackbox"
 
 # Docker
 dockerbash="$HOME/code/dockerbash"
@@ -37,6 +33,7 @@ alias readmd="open -a 'Marked 2'"
 
 # Python
 alias applepy='/usr/bin/python'
+alias blackbox="$HOME/code/blackbox/blackbox"
 alias condapy='/usr/local/anaconda3/bin/python'
 alias condapip='/usr/local/anaconda3/bin/pip'
 
