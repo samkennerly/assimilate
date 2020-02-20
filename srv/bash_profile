@@ -5,7 +5,7 @@ alias dsclean='find . -name .DS_Store -type f -print -delete'
 alias xclean='xattr -c'
 
 # AWS
-alias lsbucket='aws s3 ls s3://samkennerly/'
+alias lsbucket='aws s3 ls'
 
 # Bash
 alias la='ls -Gla'
