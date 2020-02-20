@@ -19,7 +19,6 @@ formulae:
   - git         # version control
   - imagemagick # image converter and GIF maker
   - jq          # query JSON strings in terminal
-  - python2     # local Python 2 (does not overwrite system Python)
   - python3     # local Python 3 (does not overwrite system Python)
   - rbenv       # Ruby version installer and manager
   - rlwrap      # command history and editing (for Q/KDB+)
