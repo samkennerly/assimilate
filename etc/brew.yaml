@@ -41,6 +41,7 @@ casks:
   - mactex        # Typeset equations with LaTeX
   - marked        # Markdown previewer
   - pgadmin4      # PostgreSQL browser
+  - psequel       # PostgreSQL GUI
   - qlstephen     # QuickLook for text-like files
   - quickjson     # QuickLook for JSON files
   - shiftit       # Keyboard shortcuts to move and resize windows
