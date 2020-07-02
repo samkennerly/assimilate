@@ -14,20 +14,21 @@ taps:
 
 formulae:
   # Command-line apps
-  - awscli      # Amazon Web Services command-line interface
-  - ffmpeg      # audio/video converter
-  - git         # version control
-  - imagemagick # image converter and GIF maker
-  - jq          # query JSON strings in terminal
-  - python3     # local Python 3 (does not overwrite system Python)
-  - rbenv       # Ruby version installer and manager
-  - rlwrap      # command history and editing (for Q/KDB+)
-  - thefuck     # suggestions for mistyped commands
-  - tidy-html5  # HTML5 web page cleaner
-  - tldr        # short summary of 'man' command
-  - trash       # use macOS Trash from terminal
-  - tree        # show graph of folder and subfolder contents
-  - wget        # get files from web servers
+  - awscli        # Amazon Web Services utility
+  - ffmpeg        # audio/video converter
+  - git           # version control
+  - imagemagick   # image converter and GIF maker
+  - jq            # query JSON strings in terminal
+  - heroku/brew/heroku  # Heroku utility
+  - python3       # local Python 3 (does not overwrite system Python)
+  - rbenv         # Ruby version installer and manager
+  - rlwrap        # command history and editing (for Q/KDB+)
+  - thefuck       # suggestions for mistyped commands
+  - tidy-html5    # HTML5 web page cleaner
+  - tldr          # short summary of 'man' command
+  - trash         # use macOS Trash from terminal
+  - tree          # show graph of folder and subfolder contents
+  - wget          # get files from web servers
 
 casks:
   # GUI apps
