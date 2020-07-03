@@ -25,11 +25,8 @@ alias githero='git log --graph --decorate --simplify-by-decoration --all'
 alias gitshow='git fetch --all; git branch --list --all; git status;'
 alias gittree='git ls-tree -r --full-tree --name-only HEAD'
 
-# Openers
-alias readcsv="open -a 'Easy CSV Editor'"
-alias readhex="open -a 'Hex Fiend'"
-alias readjson="open -a 'JSON Editor'"
-alias readmd="open -a 'Marked 2'"
+# Java
+alias javas='/usr/libexec/java_home --verbose'
 
 # Python
 alias applepy='/usr/bin/python'
@@ -40,6 +37,12 @@ alias condapip='/usr/local/anaconda3/bin/pip'
 # Q
 export QHOME="$HOME/q"
 alias q='rlwrap --complete-filenames --remember "$QHOME"/m32/q'
+
+# Readers
+alias readcsv="open -a 'Easy CSV Editor'"
+alias readhex="open -a 'Hex Fiend'"
+alias readjson="open -a 'JSON Editor'"
+alias readmd="open -a 'Marked 2'"
 
 # https://github.com/nvbn/thefuck
 eval "$(thefuck --alias)"
