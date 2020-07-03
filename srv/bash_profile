@@ -27,6 +27,7 @@ alias gittree='git ls-tree -r --full-tree --name-only HEAD'
 
 # Java
 alias javas='/usr/libexec/java_home --verbose'
+export JAVA_HOME="$(/usr/libexec/java_home -v 11)"
 
 # Python
 alias applepy='/usr/bin/python'
@@ -35,8 +36,8 @@ alias condapy='/usr/local/anaconda3/bin/python'
 alias condapip='/usr/local/anaconda3/bin/pip'
 
 # Q
-export QHOME="$HOME/q"
 alias q='rlwrap --complete-filenames --remember "$QHOME"/m32/q'
+export QHOME="$HOME/q"
 
 # Readers
 alias readcsv="open -a 'Easy CSV Editor'"
