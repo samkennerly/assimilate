@@ -3,7 +3,7 @@
 bash_profile:
   "~/.bash_profile"
 cheatsheets:
-  "~/cheatsheets"
+  "~/Desktop/docs/cheatsheets"
 ipython:
   "~/.ipython"
 jupyter:
