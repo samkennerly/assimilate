@@ -20,7 +20,6 @@ formulae:
   - imagemagick     # convert image files and make GIFs
   - jq              # query JSON strings in terminal
   - heroku/brew/heroku  # run Heroku commands
-  - python3         # local Python 3 (does not overwrite system Python)
   - rbenv           # install multiple Ruby versions
   - rlwrap          # remember command history for Q/KDB+
   - thefuck         # suggest corrections for mistyped commands
@@ -29,6 +28,7 @@ formulae:
   - trash           # use macOS Trash from a terminal
   - tree            # show folder contents as a graph
   - wget            # get files from web servers
+  # - python3         # local Python 3 (does not overwrite system Python)
   # - openjdk       # run a Java Development Kit for Scala
   # - sbt           # run a Slow Build Tool for Scala
 
