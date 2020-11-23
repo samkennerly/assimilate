@@ -10,42 +10,43 @@ target:
 
 taps:
   # Homebrew extensions
-  - caskroom/cask # Homebrew Cask installer
+  - caskroom/cask   # Homebrew Cask installer
 
 formulae:
-  # Command-line apps
-  - awscli        # Amazon Web Services utility
-  - ffmpeg        # audio/video converter
-  - git           # version control
-  - imagemagick   # image converter and GIF maker
-  - jq            # query JSON strings in terminal
-  - heroku/brew/heroku  # Heroku utility
-  - python3       # local Python 3 (does not overwrite system Python)
-  - rbenv         # Ruby version installer and manager
-  - rlwrap        # command history and editing (for Q/KDB+)
-  - thefuck       # suggestions for mistyped commands
-  - tidy-html5    # HTML5 web page cleaner
-  - tldr          # short summary of 'man' command
-  - trash         # use macOS Trash from terminal
-  - tree          # show graph of folder and subfolder contents
-  - wget          # get files from web servers
+  # install command-line apps with Homebrew
+  - awscli          # run Amazon Web Services commands
+  - ffmpeg          # convert audio/video files
+  - git             # when you see a fork in the repo, take it
+  - imagemagick     # convert image files and make GIFs
+  - jq              # query JSON strings in terminal
+  - heroku/brew/heroku  # run Heroku commands
+  - python3         # local Python 3 (does not overwrite system Python)
+  - rbenv           # install multiple Ruby versions
+  - rlwrap          # remember command history for Q/KDB+
+  - thefuck         # suggest corrections for mistyped commands
+  - tidy-html5      # clean HTML5 files
+  - tldr            # show shortened manpages
+  - trash           # use macOS Trash from a terminal
+  - tree            # show folder contents as a graph
+  - wget            # get files from web servers
+  # - openjdk       # run a Java Development Kit for Scala
+  # - sbt           # run a Slow Build Tool for Scala
 
 casks:
-  # GUI apps
-  - anaconda      # Scientific Python package manager
-  - cheatsheet    # Hold Command key to see shortcuts
-  - cyberduck     # Client for FTP, SFTP, Google, S3, Dropbox, ...
-  - docker        # Build and run containers
-  - fork          # GitHub client
-  - google-chrome # Chrome web browser
-  - hex-fiend     # Open and scan large and/or weird files
-  - mactex        # Typeset equations with LaTeX
-  - marked        # Markdown previewer
-  - pgadmin4      # PostgreSQL browser
-  - psequel       # PostgreSQL GUI
-  - qlstephen     # QuickLook for text-like files
-  - quickjson     # QuickLook for JSON files
-  - shiftit       # Keyboard shortcuts to move and resize windows
-  - sequel-pro    # MySQL browser
-  - sqlitebrowser # SQLite database manager
-  - sublime-text  # Text editor for coding
+  # install GUI apps with Homebrew
+  - anaconda        # run Python with many scientific packages
+  - cyberduck       # inspect files in FTP, SFTP, Google, S3, Dropbox, ...
+  - docker          # build and run containers
+  - google-chrome   # surf the World Wide Web while Google watches
+  - hex-fiend       # open and scan large or weird files
+  - mactex          # typeset equations with LaTeX
+  - marked          # preview Markdown files
+  - pgadmin4        # inspect a PostgreSQL db as a web page
+  - psequel         # inspect a PostgreSQL db
+  - qlstephen       # use QuickLook with text-like files
+  - quickjson       # use QuickLook with JSON files
+  - sequel-pro      # inspect a MySQL db
+  - sqlitebrowser   # inspect a SQLite database
+  - sublime-text    # text editor with syntax highlighting
+  # - cheatsheet    # hold Command key to see shortcuts (broken?)
+  # - shiftit       # move and resize windows (replaced by Magnet)
