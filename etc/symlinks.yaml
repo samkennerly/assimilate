@@ -1,7 +1,7 @@
 # real:fake
 
-bash_profile:
-  "~/.bash_profile"
+zshrc:
+  "~/.zshrc"
 cheatsheets:
   "~/Desktop/docs/cheatsheets"
 ipython:

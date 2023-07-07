@@ -1,8 +1,9 @@
 #!/usr/bin/env sh
 
+# Shell
+export PS1="%F{blue}%n%f %F{green}@%m%f %F{red}%~/%f"
 alias la='ls -Gla'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
-export PS1="\[\e[32m\]\u\]\[\e[36m\]@\h\]\n\[\e[31m\]\w/\[\e[m\]"
 
 # Apple
 alias dsclean='find . -name .DS_Store -type f -print -delete'
@@ -12,7 +13,7 @@ alias xclean='xattr -c'
 alias lsbucket='aws s3 ls'
 
 # Docker
-dockerbash="$HOME/code/dockerbash"
+dockerbash="$HOME/code/bash/dockerbash"
 alias drbake="$dockerbash/bin/bake"
 alias drclean="$dockerbash/bin/clean"
 alias drdelete="$dockerbash/bin/delete"
@@ -26,8 +27,8 @@ alias gitshow='git fetch --all; git branch --list --all; git status;'
 alias gittree='git ls-tree -r --full-tree --name-only HEAD'
 
 # Java
-alias javas='/usr/libexec/java_home --verbose'
 export JAVA_HOME="$(/usr/libexec/java_home -v 11)"
+alias javas='/usr/libexec/java_home --verbose'
 
 # Python
 alias applepy='/usr/bin/python'
