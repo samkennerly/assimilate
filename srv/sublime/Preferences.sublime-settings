@@ -99,5 +99,6 @@
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": "false",
-	"word_wrap": "true"
+	"word_wrap": "true",
+	"update_check": false,
 }
