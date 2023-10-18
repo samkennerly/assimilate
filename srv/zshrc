@@ -3,7 +3,6 @@
 # Shell
 export PS1="%F{blue}%n%f %F{green}@%m%f %F{red}%~/%f"
 alias la='ls -Gla'
-alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 
 # Apple
 alias dsclean='find . -name .DS_Store -type f -print -delete'
@@ -41,10 +40,10 @@ alias q='rlwrap --complete-filenames --remember "$QHOME"/m32/q'
 export QHOME="$HOME/q"
 
 # Readers
-alias readcsv="open -a 'Easy CSV Editor'"
-alias readhex="open -a 'Hex Fiend'"
-alias readjson="open -a 'JSON Editor'"
-alias readmd="open -a 'Marked 2'"
+# alias readcsv="open -a 'Easy CSV Editor'"
+# alias readhex="open -a 'Hex Fiend'"
+# alias readjson="open -a 'JSON Editor'"
+# alias readmd="open -a 'Marked 2'"
 
 # https://github.com/nvbn/thefuck
 eval "$(thefuck --alias)"
