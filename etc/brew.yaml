@@ -16,10 +16,9 @@ formulae:
   # install command-line apps with Homebrew
   - awscli          # run Amazon Web Services commands
   - ffmpeg          # convert audio/video files
-  - git             # when you see a fork in the repo, take it
+  - git             # version control for writing ode
   - imagemagick     # convert image files and make GIFs
   - jq              # query JSON strings in terminal
-  - heroku/brew/heroku  # run Heroku commands
   - rbenv           # install multiple Ruby versions
   - rlwrap          # remember command history for Q/KDB+
   - thefuck         # suggest corrections for mistyped commands
@@ -28,6 +27,7 @@ formulae:
   - trash           # use macOS Trash from a terminal
   - tree            # show folder contents as a graph
   - wget            # get files from web servers
+  # - heroku/brew/heroku  # run Heroku commands
   # - python3         # local Python 3 (does not overwrite system Python)
   # - openjdk       # run a Java Development Kit for Scala
   # - sbt           # run a Slow Build Tool for Scala
@@ -37,16 +37,16 @@ casks:
   - anaconda        # run Python with many scientific packages
   - cyberduck       # inspect files in FTP, SFTP, Google, S3, Dropbox, ...
   - docker          # build and run containers
-  - google-chrome   # surf the World Wide Web while Google watches
+  - google-chrome   # Google's web browser
   - hex-fiend       # open and scan large or weird files
   - mactex          # typeset equations with LaTeX
   - marked          # preview Markdown files
   - pgadmin4        # inspect a PostgreSQL db as a web page
   - psequel         # inspect a PostgreSQL db
-  - qlstephen       # use QuickLook with text-like files
   - quickjson       # use QuickLook with JSON files
   - sequel-pro      # inspect a MySQL db
   - sqlitebrowser   # inspect a SQLite database
   - sublime-text    # text editor with syntax highlighting
   # - cheatsheet    # hold Command key to see shortcuts (broken?)
+  # - qlstephen       # use QuickLook with text-like files
   # - shiftit       # move and resize windows (replaced by Magnet)
