@@ -1,9 +1,9 @@
-# real:fake
+# Symbolic links to files (or folders) in srv/ folder
 
 zshrc:
   "~/.zshrc"
 cheatsheets:
-  "~/Desktop/docs/cheatsheets"
+  "~/cheatsheets"
 ipython:
   "~/.ipython"
 jupyter:
