@@ -10,7 +10,7 @@ giturl:
 
 remote:
   # {local:remote} for each repo
-  blackbox:
+  python/blackbox:
     samkennerly/blackbox
-  dockerbash:
+  bash/dockerbash:
     samkennerly/dockerbash
