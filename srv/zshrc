@@ -31,7 +31,7 @@ alias javas='/usr/libexec/java_home --verbose'
 
 # Python
 alias applepy='/usr/bin/python'
-alias blackbox="$HOME/code/blackbox/blackbox"
+alias blackbox="$HOME/code/python/blackbox/blackbox"
 alias condapy='/usr/local/anaconda3/bin/python'
 alias condapip='/usr/local/anaconda3/bin/pip'
 
