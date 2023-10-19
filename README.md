@@ -1,4 +1,4 @@
-# assimilate
+# assimilate (UNDER CONSTRUCTION)
 
 Your Mac as it has been is over.
 
@@ -7,6 +7,7 @@ Your Mac as it has been is over.
   src="https://raw.githubusercontent.com/samkennerly/posters/master/assimilate.jpeg"
   title="Resistance is futile.">
 
+
 ## abstract
 
 [Ruby] and [shell] scripts to quickly prepare a [mise en place] for a new Mac.
@@ -14,6 +15,7 @@ Your Mac as it has been is over.
 [Ruby]: https://www.ruby-lang.org
 [shell]: https://en.wikipedia.org/wiki/Shell_(computing)
 [mise en place]: https://en.wikipedia.org/wiki/Mise_en_place
+
 
 ## basics
 
@@ -24,6 +26,7 @@ Your Mac as it has been is over.
 [Clone]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 [use it as a template]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
 [Terminal]: https://en.wikipedia.org/wiki/Terminal_%28macOS%29
+
 
 ## contents
 
@@ -56,11 +59,13 @@ Files and folders intended to be re-used on multiple machines.
 [startup file]: http://www.gnu.org/software/bash/manual/bashref.html#Bash-Startup-Files
 [Terminal]: https://en.wikipedia.org/wiki/Terminal_%28macOS%29
 
+
 ## dependencies
 
 - [Ruby 2.3.7+] is pre-installed on Mac machines.
 
 [Ruby 2.3.7+]: https://www.ruby-lang.org
+
 
 ## examples
 
@@ -69,7 +74,7 @@ Run all scripts.
 bin/all
 ```
 
-Use [Homebrew] to install apps listed in `etc/brew.yaml`.
+~~Use [Homebrew] to install apps listed in~~ `etc/brew.yaml`.
 ```
 bin/brew
 ```
