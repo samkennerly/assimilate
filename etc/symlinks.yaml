@@ -1,12 +1,7 @@
 # Symbolic links to files (or folders) in srv/ folder
-
 zshrc:
   "~/.zshrc"
 cheatsheets:
   "~/cheatsheets"
-ipython:
-  "~/.ipython"
-jupyter:
-  "~/.jupyter"
 sublime:
   "~/Library/Application Support/Sublime Text 3/Packages/User"
