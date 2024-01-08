@@ -39,7 +39,7 @@ Executable scripts.
 
 [bin/all]: bin/all
 [bin/clones]: bin/clones
-[GitHub repos]: https://help.github.com/en/github/
+[GitHub repos]: https://docs.github.com/en/repositories
 [bin/symlinks]: bin/symlinks
 [symbolic links]: https://en.wikipedia.org/wiki/Symbolic_link
 
