@@ -12,7 +12,7 @@ alias xclean='xattr -c'
 alias lsbucket='aws s3 ls'
 
 # Docker
-dockerbash="$HOME/code/bash/dockerbash"
+dockerbash="$HOME/code/shell/dockerbash"
 alias drbake="$dockerbash/bin/bake"
 alias drclean="$dockerbash/bin/clean"
 alias drdelete="$dockerbash/bin/delete"
@@ -31,7 +31,7 @@ alias javas='/usr/libexec/java_home --verbose'
 
 # Python
 alias applepy='/usr/bin/python'
-alias blackbox="$HOME/code/python/blackbox/blackbox"
+alias blackbox="$HOME/code/shell/blackbox/blackbox"
 alias condapy='/usr/local/anaconda3/bin/python'
 alias condapip='/usr/local/anaconda3/bin/pip'
 
