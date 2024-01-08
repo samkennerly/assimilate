@@ -1,6 +1,6 @@
 # assimilate (UNDER CONSTRUCTION)
 
-Your Mac as it has been is over.
+Force a new Mac to conform to my preferences.
 
 <img
   alt="Locutus of Borg."
@@ -10,11 +10,10 @@ Your Mac as it has been is over.
 
 ## abstract
 
-[Ruby] and [shell] scripts to quickly prepare a [mise en place] for a new Mac.
+Quick [Ruby] scripts to help prepare my usual [mise].
 
 [Ruby]: https://www.ruby-lang.org
-[shell]: https://en.wikipedia.org/wiki/Shell_(computing)
-[mise en place]: https://en.wikipedia.org/wiki/Mise_en_place
+[mise]: https://en.wikipedia.org/wiki/Mise_en_place
 
 
 ## basics
@@ -30,77 +29,72 @@ Your Mac as it has been is over.
 
 ## contents
 
-### [bin](bin)
+### bin
 
 Executable scripts.
 
-### [etc](etc)
+- [bin/all] runs all scripts.
+- [bin/clones] clones [GitHub repos].
+- [bin/symlinks] builds [symbolic links].
 
-Configuration files for scripts.
+[bin/all]: bin/all
+[bin/clones]: bin/clones
+[GitHub repos]: https://help.github.com/en/github/
+[bin/symlinks]: bin/symlinks
+[symbolic links]: https://en.wikipedia.org/wiki/Symbolic_link
 
-### [lib](lib)
+### etc
 
-Library files used by scripts.
+Configuration files.
 
-### [srv](srv)
+- [clones.yaml] specifies which [GitHub repos] to clone.
+- [symlinks.yaml] specifies which [symbolic links] to build.
+
+[clones.yaml]: etc/clones.yaml
+[symlinks.yaml]: etc/symlinks.yaml
+
+### lib
+
+Library files.
+
+- [repo.rb] contains the `Repo` module with convenience functions.
+
+[repo.rb]: lib/repo.rb
+
+### srv
 
 Files and folders intended to be re-used on multiple machines.
 
-- `cheatsheets` are quick-reference cards.
-- `ipython` stores public config files for [IPython].
-- `jupyter` stores public config files for [Jupyter].
-- `sublime` stores [Sublime Text 3] preferences and languages.
-- `bash_profile` is a shell [startup file].
-- `Section9.terminal` is a theme for the macOS [Terminal].
+- [cheatsheets] contains quick-reference cards.
+- [sublime] contains [Sublime Text 3] preferences and languages.
+- [Section9.terminal] is a theme for the macOS [Terminal].
+- [zshrc] is a shell [startup file].
 
-[IPython]: https://ipython.org/
-[Jupyter]: https://jupyter.org/
+[cheatsheets]: srv/cheatsheets
+[sublime]: srv/sublime
+[Section9.terminal]: srv/Section9.terminal
+[zshrc]: srv/zshrc
 [Sublime Text 3]: https://www.sublimetext.com/
-[startup file]: http://www.gnu.org/software/bash/manual/bashref.html#Bash-Startup-Files
 [Terminal]: https://en.wikipedia.org/wiki/Terminal_%28macOS%29
+[startup file]: http://www.gnu.org/software/bash/manual/bashref.html#Bash-Startup-Files
 
 
 ## dependencies
 
-- [Ruby 2.3.7+] is pre-installed on Mac machines.
+- [Ruby] is pre-installed on Mac machines.
 
-[Ruby 2.3.7+]: https://www.ruby-lang.org
+[Ruby]: https://www.ruby-lang.org
 
 
-## examples
+## example
 
 Run all scripts.
-```
+```sh
 bin/all
 ```
 
-~~Use [Homebrew] to install apps listed in~~ `etc/brew.yaml`.
-```
-bin/brew
-```
-
-Clone [GitHub repos] listed in `etc/clones.yaml`.
-```
-bin/clones
-```
-
-Set [macOS defaults] listed in `etc/defaults.yaml`.
-```
-bin/defaults
-```
-
-Build [symlinks] listed in `etc/symlinks.yaml`.
-```
-bin/symlinks
-```
-
-[Homebrew]: https://brew.sh/
-[GitHub repos]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories
-[macOS defaults]: https://en.wikipedia.org/wiki/Defaults_(software)
-[symlinks]: https://en.wikipedia.org/wiki/Symbolic_link
-
 ## faq
 
-### Has everything been carefully tested?
+### Have these scripts been thoroughly tested?
 
 No. Use this repo at your own risk.
