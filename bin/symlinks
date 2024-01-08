@@ -5,13 +5,13 @@ puts '---- Build symbolic links ----'
 require_relative '../lib/repo'
 
 PARAMS = Repo.params('symlinks')
-SOURCE = Repo.path('srv')
-TARGET = Dir.home
+FILEDIR = Repo.path('srv')
+LINKDIR = Dir.home
 
 PARAMS.each do |k,v|
-  real = File.expand_path(k,SOURCE)
-  fake = File.expand_path(v,TARGET)
-  Repo.echo "#{real} <- #{fake}"
-  File.unlink(fake) if File.symlink?(fake)
-  File.symlink(real,fake)
+  filename = File.expand_path(k, FILEDIR)
+  linkname = File.expand_path(v, LINKDIR)
+  Repo.echo "#{filename} <- #{linkname}"
+  File.unlink(linkname) if File.symlink?(linkname)
+  File.symlink(filename, linkname)
 end
