@@ -9,15 +9,15 @@ DOMAINS = `defaults domains`.split(',').map(&:strip).sort
 PARAMS = Repo.params('defaults')
 
 def app_defaults(app)
-  system "defaults read -app #{app}"
+  Repo.run("defaults read -app #{app}")
 end
 
 def domain_defaults(domain)
-  system "defaults read #{domain}"
+  Repo.run("defaults read #{domain}")
 end
 
 def global_defaults
-  system "defaults read -globalDomain"
+  Repo.run("defaults read -globalDomain")
 end
 
 puts DOMAINS
