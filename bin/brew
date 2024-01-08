@@ -11,7 +11,7 @@ TARGET = File.expand_path(PARAMS['target'])
 
 unless File.file?(TARGET)
   Repo.echo "Install brew from #{SOURCE}"
-  system('ruby','-e',open(SOURCE).read)
+  Repo.run "ruby -e #{open(SOURCE).read}"
 end
 Repo.run 'brew update'
 PARAMS['taps'].each { |x| Repo.run "brew tap #{x}" }
