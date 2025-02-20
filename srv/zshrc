@@ -22,6 +22,7 @@ alias drshow="$dockerbash/bin/show"
 
 # Git
 alias githero='git log --graph --decorate --simplify-by-decoration --all'
+alias gitmain='git checkout main && git pull --prune'
 alias gitshow='git fetch --all; git branch --list --all; git status;'
 alias gittree='git ls-tree -r --full-tree --name-only HEAD'
 
@@ -44,6 +45,11 @@ export QHOME="$HOME/q"
 # alias readhex="open -a 'Hex Fiend'"
 # alias readjson="open -a 'JSON Editor'"
 # alias readmd="open -a 'Marked 2'"
+
+# Utilities
+alias ipshow='curl https://ipv4.icanhazip.com'
+alias sslread='openssl x509 -noout -text -in'
+alias tcports='netstat -tulpn | grep LISTEN'
 
 # https://github.com/nvbn/thefuck
 eval "$(thefuck --alias)"
